@@ -1,30 +1,15 @@
 {
-  "name": "Template R operator",
-  "description": "Return the medium value of a cell",
-  "tags": ["template"],
+  "name": "Model Based Clustering",
+  "description": "Model-based clustering based on finite normal mixture modelling",
+  "tags": ["clustering", "pamgene"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_R_operator"],
-  "properties": [
+  "urls": ["https://github.com/tercen/model_based_clustering_operator"],
+    "properties": [
    {
-    "kind": "StringProperty",
-    "name": "string_example",
-    "defaultValue": "example",
-    "description": "description parameter 1"
-    },
-    {
-    "kind": "EnumeratedProperty",
-    "name": "list_example",
-    "defaultValue": "value1",
-    "values": [
-      "value1",
-      "StringProperty",
-      "DoubleProperty",
-      "BooleanProperty",
-      "EnumeratedProperty"
-    ],
-    "description": "description parameter 2"
-  }
+    "kind": "DoubleProperty",
+    "name": "n_clusters",
+    "defaultValue": 0,
+    "description": "Number of clusters (0 = optimal number of clusters will be estimated)"
+    }
   ]
 }
-
-
