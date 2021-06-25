@@ -6,10 +6,10 @@
   "urls": ["https://github.com/tercen/model_based_clustering_operator"],
     "properties": [
    {
-    "kind": "DoubleProperty",
-    "name": "n_clusters",
-    "defaultValue": 0,
-    "description": "Number of clusters (0 = optimal number of clusters will be estimated)"
+    "kind": "StringProperty",
+    "name": "Number of clusters",
+    "defaultValue": "auto",
+    "description": "Number of clusters (auto = optimal number of clusters will be estimated)"
     }
   ]
 }

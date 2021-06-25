@@ -1,4 +1,4 @@
-# GMM operator
+# Model-based clustering operator
 
 ##### Description
 
@@ -8,17 +8,16 @@ Model-based clustering based on finite Gaussian Mixture Models.
 
 Input projection|.
 ---|---
-`x-axis`        | numeric, input data, per cell
-`cols`        | observations
-`rows`        | variables
+`x-axis`      | character, x-axis value (e.g. Sample Name)
+`y-axis`      | numeric, y-axis value
 
 Input parameters|.
 ---|---
-`n_clusters`        | Number of components of the mixture model (clusters). If 0 (default), the optimal number of clusters between 1 and 9 will be estimated.
+`Number of clusters`  | Number of components of the mixture model (clusters). If auto (default), the optimal number of clusters between 1 and 9 will be estimated.
 
 Output relations|.
 ---|---
-`cluster`        | cluster
+`clusterIdx`        | cluster id
 
 ##### Details
 
@@ -26,4 +25,5 @@ Number of clusters is automatically determined using the Bayesian Information Cr
 
 ##### See Also
 
+[gmm_operator](https://github.com/tercen/gmm_operator)
 [kmeans_operator](https://github.com/tercen/kmeans_operator)
