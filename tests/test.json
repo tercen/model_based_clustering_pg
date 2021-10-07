@@ -1,0 +1,13 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "test",
+  "namespace": "ds0",
+  "inputDataUri": "groups_series_exp.tsv",
+  "outputDataUri": ["table1.csv","table2.csv"],
+  "columns": [],
+  "rows": ["Variable"],
+  "colors": [],
+  "labels": [],
+  "yAxis": "Measurement",
+  "xAxis": "Series"
+}
