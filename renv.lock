@@ -129,10 +129,12 @@
     },
     "mclust": {
       "Package": "mclust",
-      "Version": "5.4.7",
-      "Source": "Repository",
+      "Version": "5.2",
+      "Source": "URL",
       "Repository": "CRAN",
-      "Hash": "94d378428bc227483a83ab1de21dce41"
+      "RemoteType": "url",
+      "RemoteUrl": "https://cran.r-project.org/src/contrib/Archive/mclust/mclust_5.2.tar.gz",
+      "Hash": "893e5f82c56c68a0811eed4025f4d53b"
     },
     "mtercen": {
       "Package": "mtercen",
